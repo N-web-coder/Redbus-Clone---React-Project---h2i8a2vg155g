@@ -1,0 +1,100 @@
+.bg{
+    background-image: url("https://st.redbus.in/Images/INDOFFER/FESTIVE200/Hero01.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+.navbar{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    background-color: #d74f57;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: sticky;
+}
+.navbar > h5 {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(236, 236, 236);
+}
+.logo{
+    margin-left: 50px;
+    height: 70px;
+    width: 90px
+}
+h5{
+    color: rgb(224, 224, 224);
+    margin-right: 50px;
+}
+h5:hover{
+    text-decoration: underline 3px rgb(163, 12, 12);
+    transition: text-decoration 0.5s ease-in;
+    color: rgb(155, 155, 155);
+    font-size: 1.1rem;
+    transition: font-size 0.5s ease-out;
+}
+#lastNav{
+    display: flex;
+    width: 50vw;
+    justify-content: right;
+}
+#sign{
+    height: 50px;
+    width: 50px;
+    margin-left: 60px;
+}
+.both{
+    margin: 20px 0;
+}
+select{
+    height: 20px;
+    width: 20px;
+}
+.first{
+    text-align: center;
+    margin-top: 160px;
+}
+.first > input{
+    height: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-style: none;
+    padding: 0 10px;
+    font-size: 1rem;
+}
+.first > button{
+    height: 3rem;
+    background-color: #d74f57;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 150px;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+}
+.first > button:hover{
+    background-color: #b43c44;
+    font-size: 1.1rem;
+    transition: font-size 0.5s ease-out;
+    color: rgb(185, 185, 185);
+}
+#swap{
+    position: relative;
+    height: 3rem;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    color: rgb(197, 189, 189);
+    font-size: 1.4rem;
+}
+#time{
+    margin-left: 0px;
+    position: relative;
+    bottom: 1px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #e6707f;
+    cursor: pointer;
+}
+#time:hover{
+    background-color: #d36c7a;
+}

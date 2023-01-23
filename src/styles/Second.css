@@ -1,0 +1,79 @@
+.box1{
+    background-color: rgb(218, 218, 218);
+    padding: 10px;
+    margin-top: 20px;
+}
+.second{
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+    color: #fff;
+    background-color: rgb(148, 59, 59);
+    border-radius: 10px;
+    padding: 20px;
+}
+.second > h3{
+    margin: 10px 30px;
+}
+#sort{
+    background-color:  rgb(75, 30, 30);
+    width: 80vw;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.7rem;
+    color: #fff;
+}
+table{
+    margin: 10px auto;
+    width: 80vw;
+    /* background-color: red; */
+}
+thead{
+    background-color: rgb(70, 31, 31);
+    height: 2.5rem;
+    color: rgb(167, 167, 167);
+}
+thead > tr > th{
+    font-size: 1.5rem;
+    border-radius: 10px;
+    padding: 25px;
+    cursor: pointer;
+}
+thead> tr > th:hover{
+    background-color: rgb(85, 42, 42);
+    color: rgb(110, 110, 110);
+}
+tbody{
+    margin: 10px 0; 
+}
+tbody > tr{
+    height: 30px;
+    background-color: rgb(119, 40, 40);
+    color: rgb(177, 175, 175);
+}
+tbody > tr:nth-child(even){
+    background-color: rgb(109, 57, 51);
+}
+tbody > tr > td{
+    font-size: 1.4rem;
+    padding-bottom: 10px;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}
+
+tbody > tr > td > div{
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+tbody > tr > td > div > h7{
+    color: rgb(15, 15, 15);
+}
+tbody > tr > td > h7{
+    color: rgb(15, 15, 15);
+}
+tbody > tr:hover{
+    background-color: rgb(133, 68, 68);
+    font-size: 1.1rem;
+    transform: font-size 0.3s;
+    color: rgb(184, 184, 184);
+}

@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.help{
+    background-color: #d84f57;
+    height: 100vh;
+    width: 100vw;
+}
+.box2{
+    text-align: center;
+    position: relative;
+    /* left: 300px; */
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #d74f57;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: sticky;
+    height: 80px;
+    width: 100vw;
+}
+h5{
+    color: rgb(224, 224, 224);
+    margin-right: 50px;
+}
+h5:hover{
+    text-decoration: underline 3px rgb(163, 12, 12);
+    transition: text-decoration 0.5s ease-in;
+    color: rgb(155, 155, 155);
+    font-size: 1.1rem;
+    transition: font-size 0.5s ease-out;
+}
+.name{
+    font-size: 4rem;
+    color: #fff;
+    margin-left: 300px;
+}
+#lastNav{
+    display: flex;
+    width: 50vw;
+    justify-content: right;
+}
+#sign{
+    height: 50px;
+    width: 50px;
+    margin-left: 60px;
+    color: #fff;
+}
+.both{
+    margin: 20px 0;
+}
+select{
+    height: 20px;
+    width: 20px;
+}
+.support{
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+}
+.image{
+    background-image: url("https://s3.rdbuz.com/Images/webplatform/Common/rc_artboard.jpg");
+    background-size: cover;
+    margin: 20px 0;
+    margin-left: 300px;
+    height: 360px;
+    width: 600px;
+}
+.footer{
+    height: 60vh;
+    width: 100vw;
+    background-color: #1b2330;
+    color: #fff;
+}
+#sixth{
+    width: 30vw;
+    float: right;
+    margin: 60px;
+}
+#sixth> div > img{
+    margin: 10px;
+}
+#sixth > h6{
+    margin: 10px 0;
+}
+#twitter{
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+}
+#fb{
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+}

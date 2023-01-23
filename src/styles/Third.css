@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    background-color: #d74f57;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: sticky;
+}
+.navbar > h5 {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(236, 236, 236);
+}
+.logo{
+    margin-left: 50px;
+    height: 70px;
+    width: 90px
+}
+h5{
+    color: rgb(224, 224, 224);
+    margin-right: 50px;
+}
+h5:hover{
+    text-decoration: underline 3px rgb(163, 12, 12);
+    transition: text-decoration 0.5s ease-in;
+    color: rgb(155, 155, 155);
+    font-size: 1.1rem;
+    transition: font-size 0.5s ease-out;
+}
+#lastNav{
+    display: flex;
+    width: 50vw;
+    justify-content: right;
+}
+#sign{
+    height: 50px;
+    width: 50px;
+    margin-left: 60px;
+}
+.both{
+    margin: 20px 0;
+}
+select{
+    height: 20px;
+    width: 20px;
+}
+#busDetail{
+    min-height: 50px;
+    width: 70vw;
+    background-color: rgb(168, 83, 83);
+    margin: 20px auto;
+    padding: 20px 0;
+}
+.large{
+    height: 90vh;
+    width: 90vw;
+    background-color: rgb(97, 29, 29);
+    margin: 0px auto;
+    padding: 20px;
+}
+.grid{
+    height: 70vh;
+    width: 70vw;
+    background-color: white;
+    text-align: center;
+    margin: 0px auto;
+}
+.gridItem{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(63, 101, 134);
+    margin: 10px;
+    display: inline-block;
+    flex-direction: row;
+}
+#book{
+    height: 60px;
+    width: 250px;
+    float: right;
+    font-size: 1.8rem;
+    background-color: rgb(0, 145, 145);
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 15px;
+}
